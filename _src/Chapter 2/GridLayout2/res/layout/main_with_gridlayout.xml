@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_gravity="right"
+        android:text="Username:" android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:ems="10" android:background="@drawable/borders"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:text="Password:"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:ems="10" android:background="@drawable/borders">
+
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_columnSpan="2"
+        android:text="Button" android:layout_gravity="center_horizontal"/>
+
+</GridLayout>
